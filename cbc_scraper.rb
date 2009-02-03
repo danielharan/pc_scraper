@@ -1,5 +1,5 @@
 require 'rubygems'
-require 'mechanize'
+require 'open-uri'
 
 class CbcScraper
   attr_accessor :postal_code
@@ -17,11 +17,6 @@ class CbcScraper
   end
   
   def fetch
-    curl url
+    open(url).read
   end
-  
-  protected
-    def curl(path)
-      `curl #{path}`
-    end
 end

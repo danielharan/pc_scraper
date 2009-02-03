@@ -14,9 +14,13 @@ class ScraperTest < Test::Unit::TestCase
       assert_equal @url, @scraper.url
     end
     
-    should "delegate to curl" do
-      @scraper.stubs(:curl).with('http://www.cbc.ca/news/canadavotes/myriding/postalcodes/g/g0c/2y0.html')
-      @scraper.fetch
+    should "return the page body" do
+      @scraper.postal_code = "R2W 4B2" # argh, stupid encoding, we use this one for now
+      assert_equal '[{"rid":225,"name":"Winnipeg North"}]', @scraper.fetch.strip
+    end
+    
+    should "handle accents gracefully" do
+      flunk
     end
   end
 end
