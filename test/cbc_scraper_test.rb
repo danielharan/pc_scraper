@@ -1,7 +1,7 @@
 require File.dirname(__FILE__) + '/test_helper'
 require File.dirname(__FILE__) + '/../cbc_scraper'
 
-class ScraperTest < Test::Unit::TestCase
+class CbcScraperScraperTest < Test::Unit::TestCase
   context "A new scraper instance" do
     setup do
       @scraper = CbcScraper.new('G0C 2Y0')
