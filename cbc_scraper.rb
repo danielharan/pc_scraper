@@ -8,7 +8,7 @@ class CbcScraper
   end
   
   def filename
-    @postal_code.gsub(' ', '')
+    'pages/' + @postal_code.gsub(' ', '')
   end
   
   def url
