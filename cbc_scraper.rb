@@ -22,6 +22,6 @@ class CbcScraper
   
   protected
     def curl(path)
-      `curl #{path} > #{filename}`
+      `curl #{path}`
     end
 end
