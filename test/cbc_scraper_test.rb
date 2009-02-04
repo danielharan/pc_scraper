@@ -8,7 +8,7 @@ class CbcScraperScraperTest < Test::Unit::TestCase
       @url     = 'http://www.cbc.ca/news/canadavotes/myriding/postalcodes/g/g0c/2y0.html'
     end
     
-    expect { assert_equal 'pages/G0C2Y0', @scraper.filename }
+    expect { assert_equal 'spidered/G0C/G0C2Y0', @scraper.filename }
     
     should "be able to construct the target url" do
       assert_equal @url, @scraper.url
