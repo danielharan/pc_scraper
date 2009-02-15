@@ -30,7 +30,7 @@ class CbcScraper
   end
   
   def extract
-    JSON.parse(IO.read(filename)).first["rid"]
+    JSON.parse(IO.read(filename)).collect {|e| e["rid"]}
   end
 
   class << self

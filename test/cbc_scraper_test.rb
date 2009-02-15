@@ -34,12 +34,12 @@ class CbcScraperScraperTest < Test::Unit::TestCase
   end
   
   context "extracting data" do
-    setup do
-      @scraper = CbcScraper.new('G0C 2Y0')
+    should "extract its riding id" do
+      assert_equal [52], CbcScraper.new('G0C 2Y0').extract
     end
     
-    should "extract its riding id" do
-      assert_equal 52, @scraper.extract
+    should "find multiple riding ids" do
+      assert_equal [136,165], CbcScraper.new('L0A 1G0').extract
     end
   end
 end
