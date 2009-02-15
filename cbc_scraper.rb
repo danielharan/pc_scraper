@@ -30,7 +30,9 @@ class CbcScraper
   end
   
   def extract
-    JSON.parse(IO.read(filename)).collect {|e| e["rid"]}
+    st = IO.read(filename)
+    st = '[' + st unless st.starts_with?('[')
+    JSON.parse(st).collect {|e| e["rid"]}
   end
 
   class << self
@@ -63,12 +65,10 @@ class CbcScraper
       end
     end
 
-    def extract(data_file)
+    def extract(data_file, &block)
       data = File.read(data_file).map {|l| l.chomp}
       
-      data.each do |datum|
-        puts extract_file(datum).join("=")
-      end
+      data.each { |d| puts d; yield extract_file(d) }
     end
     
     def extract_file(code)
