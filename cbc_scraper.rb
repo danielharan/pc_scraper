@@ -59,6 +59,7 @@ class CbcScraper
         false
       else
         File.open(scraper.filename, "w") {|f| f.puts scraper.fetch }
+        true
       end
     end
 

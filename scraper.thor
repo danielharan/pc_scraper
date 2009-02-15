@@ -8,8 +8,8 @@ class Scraper < Thor
   desc 'spider data_file scraper_class', 'load a data_file and scrape data for each line'
   method_options :pause_min => 1, :pause_max => 3
   def spider(data_file, spider_class)
-    class_constant_for(spider_class).spider(data_file, options) do
-      sleep(random_interval_between(options[:pause_min],options[:pause_max]))
+    class_constant_for(spider_class).spider(data_file) do
+      sleep random_interval_between(options[:pause_min],options[:pause_max])
     end
   end
   
