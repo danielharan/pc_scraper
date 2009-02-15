@@ -41,5 +41,9 @@ class CbcScraperScraperTest < Test::Unit::TestCase
     should "find multiple riding ids" do
       assert_equal [136,165], CbcScraper.new('L0A 1G0').extract
     end
+    
+    should "forgive a missing [ in the JSON" do
+      assert_equal [5], CbcScraper.new("A0E 1E0").extract
+    end
   end
 end
