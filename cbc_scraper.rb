@@ -1,24 +1,22 @@
 require 'rubygems'
 require 'open-uri'
+require 'json'
 
 class CbcScraper
-  attr_accessor :postal_code
+  attr_accessor :postal_code, :fsa, :ldu
   def initialize(postal_code)
     @postal_code = postal_code
+    @fsa, @ldu   = postal_code.split(' ')
   end
 
   def filename
-    "spidered/#{fsa}/#{fsa}#{ldu}"
+    "spidered/#{fsa}/#{canonical_key}"
   end
   
-  def fsa
-    @postal_code.split(' ').first
+  def canonical_key
+    "#{fsa}#{ldu}"
   end
   
-  def ldu
-    @postal_code.split(' ').last
-  end
-
   def url
     "http://www.cbc.ca/news/canadavotes/myriding/postalcodes/#{postal_code[0..0].downcase}/#{fsa.downcase}/#{ldu.downcase}.html"
   end
@@ -26,36 +24,60 @@ class CbcScraper
   def fetch
     open(url).read
   end
-
-  def self.spider(data_file, options)
-    # randomize to make the pattern slightly harder to see in logs
-    data = File.read(data_file).map {|l| l.chomp}.sort_by {|e| rand(10_000)}
   
-    data.each do |datum|
-      begin
-        if scrape(datum)
-          sleep(random_interval_between(options[:pause_min],options[:pause_max]))
+  def cached?
+    File.exists?(filename)
+  end
+  
+  def extract
+    JSON.parse(IO.read(filename)).first["rid"]
+  end
+
+  class << self
+    def spider(data_file)
+      # randomize to make the pattern slightly harder to see in logs
+      data = File.read(data_file).map {|l| l.chomp}.sort_by {|e| rand(10_000)}
+  
+      data.each do |datum|
+        begin
+          if scrape(datum)
+            yield
+          end
+        rescue Exception => e
+          # rescuing exception because that gets thrown by open TODO: see if we can catch something saner
+          puts "could not fetch #{datum}, sleeping for a bit (exception was #{e}"
+          sleep 20
+          next
         end
-      rescue Exception => e
-        # rescuing exception because that gets thrown by open TODO: see if we can catch something saner
-        puts "could not fetch #{datum}, sleeping for a bit (exception was #{e}"
-        sleep 20
-        next
       end
     end
-  end
   
-  def self.scrape(datum)
-    scraper = new(datum)
+    def scrape(datum)
+      scraper = new(datum)
 
-    if File.exists?(scraper.filename)
-      false
-    else
-      File.open(scraper.filename, "w") {|f| f.puts scraper.fetch }
+      if scraper.cached?
+        false
+      else
+        File.open(scraper.filename, "w") {|f| f.puts scraper.fetch }
+      end
     end
-  end
 
-  def self.random_interval_between(min,max)
-    min + (rand((max - min) * 1_000.0) / 1_000.0)
+    def extract(data_file)
+      data = File.read(data_file).map {|l| l.chomp}
+      
+      data.each do |datum|
+        puts extract_file(datum).join("=")
+      end
+    end
+    
+    def extract_file(code)
+      scraper = new(code)
+      
+      if scraper.cached?
+        [scraper.canonical_key, scraper.extract]
+      else
+        [scraper.canonical_key, "404 not found"]
+      end
+    end
   end
 end
