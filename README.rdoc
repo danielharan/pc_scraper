@@ -1,0 +1,12 @@
+= pc_scraper
+
+A way to copy cbc.ca's postal code to electoral riding id database.
+
+codes_to_edids.zip is a list of postal codes, one per line, followed by the riding id. In cases where more than one riding id is returned by the cbc, each is listed on a new line.
+
+Still missing: a file containing
+  riding_id, english_name, french_name
+
+Some postal_codes are probably missing too. The initial list was built from public resources that may have been outdated. In any case, a few postal codes are added or retired every few months. If you have a more up to date list, please get in touch.
+
+If you're technically inclined, please fork away :)
