@@ -13,13 +13,13 @@ class Scraper < Thor
     end
   end
   
-  desc 'extract scraper_class', 'extract data from cached files, and write results to standard out'
+  desc 'extract scraper_class data_file', 'extract data from cached files, and write results to standard out'
   def extract(spider_class, data_file)
-    puts '{'
     class_constant_for(spider_class).extract(data_file) do |data|
-      puts "\"#{data.first}\": #{data.last.inspect},"
+      data.last.each do |riding_id|
+        puts "#{data.first},#{riding_id}"
+      end
     end
-    puts '}'
   end
   
   private
