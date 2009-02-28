@@ -1,0 +1,8 @@
+# data was obtained from the bottom part of the following pages and saved in spidered/
+# 
+# http://www.elections.ca/content.asp?section=gen&document=ec92605&dir=bkg&lang=e&textonly=false
+# http://www.elections.ca/content.asp?section=gen&document=ec92605&dir=bkg&lang=f&textonly=false
+
+# matching lines we extracted from the command-line:
+cat spidered/edid_names_en | ruby -ne 'puts "#{$1},#{$2.strip}" if /^(\d{5}) \t([^0-9]*)/' > data/edid_names_en
+cat spidered/edid_names_fr | ruby -ne 'puts "#{$1},#{$2.strip}" if /^(\d{5}) \t([^0-9]*)/' > data/edid_names_fr
