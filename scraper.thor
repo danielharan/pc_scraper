@@ -22,6 +22,15 @@ class Scraper < Thor
     end
   end
   
+  desc 'extract_riding_ids_and_names', 'extract a hash or riding ids and names'
+  def extract_riding_ids_and_names(spider_class, data_file)
+    hash = {}
+    class_constant_for(spider_class).extract_riding_id_and_names(data_file) do |key,val|
+      hash[key] = val
+    end
+    puts hash.inspect
+  end
+  
   private
     def class_constant_for(class_name)
       class_name.classify.constantize

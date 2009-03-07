@@ -85,5 +85,19 @@ class CbcScraper
         [scraper.canonical_key, "404 not found"]
       end
     end
+    
+    def extract_riding_id_and_names(data_file, &block)
+      data = File.read(data_file).map {|l| l.chomp}
+      
+      data.each { |d| extract_riding_id_and_name(d, &block) }
+    end
+    
+    def extract_riding_id_and_name(code, &block)
+      scraper = new(code)
+      
+      scraper.extract_all.each do |hash|
+        yield(hash["rid"], hash["name"])
+      end
+    end
   end
 end
