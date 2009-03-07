@@ -30,9 +30,13 @@ class CbcScraper
   end
   
   def extract
+    exract_all.collect {|e| e["rid"]}
+  end
+  
+  def extract_all
     st = IO.read(filename)
     st = '[' + st unless st.starts_with?('[')
-    JSON.parse(st).collect {|e| e["rid"]}
+    JSON.parse(st)
   end
 
   class << self
