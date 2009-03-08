@@ -1,0 +1,308 @@
+10001,1,Avalon,Avalon
+10002,2,Bonavista–Gander–Grand Falls–Windsor,Bonavista–Gander–Grand Falls–Windsor
+10003,3,Humber–St. Barbe–Baie Verte,Humber–St. Barbe–Baie Verte
+10004,4,Labrador,Labrador
+10005,5,Random–Burin–St. George's,Random–Burin–St. George's
+10006,6,St. John's East,St. John's-Est
+10007,7,St. John's South –Mount Pearl,St. John's-Sud–Mount Pearl
+11001,8,Cardigan,Cardigan
+11002,9,Charlottetown,Charlottetown
+11003,10,Egmont,Egmont
+11004,11,Malpeque,Malpeque
+12001,12,Cape Breton–Canso,Cape Breton–Canso
+12002,13,Central Nova,Nova-Centre
+12003,15,Dartmouth–Cole Harbour,Dartmouth–Cole Harbour
+12004,16,Halifax,Halifax
+12005,17,Halifax West,Halifax-Ouest
+12006,18,Kings–Hants,Kings–Hants
+12007,14,Cumberland–Colchester–Musquodoboit Valley,Cumberland–Colchester–Musquodoboit Valley
+12008,19,Sackville–Eastern Shore,Sackville–Eastern Shore
+12009,20,South Shore–St. Margaret's,South Shore–St. Margaret's
+12010,21,Sydney–Victoria,Sydney–Victoria
+12011,22,West Nova,Nova-Ouest
+13001,23,Acadie–Bathurst,Acadie–Bathurst
+13002,24,Beauséjour,Beauséjour
+13003,25,Fredericton,Fredericton
+13004,26,Fundy Royal,Fundy Royal
+13005,27,Madawaska–Restigouche,Madawaska–Restigouche
+13006,28,Miramichi,Miramichi
+13007,29,Moncton–Riverview–Dieppe,Moncton–Riverview–Dieppe
+13008,30,New Brunswick Southwest,Nouveau-Brunswick-Sud-Ouest
+13009,31,Saint John,Saint John
+13010,32,Tobique–Mactaquac,Tobique–Mactaquac
+24001,34,Abitibi–Témiscamingue,Abitibi–Témiscamingue
+24002,35,Ahuntsic,Ahuntsic
+24003,36,Alfred-Pellan,Alfred-Pellan
+24004,37,Argenteuil–Papineau–Mirabel,Argenteuil–Papineau–Mirabel
+24005,39,Beauce,Beauce
+24006,40,Beauharnois–Salaberry,Beauharnois–Salaberry
+24007,41,Beauport–Limoilou,Beauport–Limoilou
+24008,42,Berthier–Maskinongé,Berthier–Maskinongé
+24009,43,Bourassa,Bourassa
+24010,44,Brome–Missisquoi,Brome–Missisquoi
+24011,45,Brossard–La Prairie,Brossard–La Prairie
+24012,46,Chambly–Borduas,Chambly–Borduas
+24013,47,Charlesbourg–Haute-Saint-Charles,Charlesbourg–Haute-Saint-Charles
+24014,78,Montmorency–Charlevoix–Haute-Côte-Nord,Montmorency–Charlevoix–Haute-Côte-Nord
+24015,48,Châteauguay–Saint-Constant,Châteauguay–Saint-Constant
+24016,49,Chicoutimi–Le Fjord,Chicoutimi–Le Fjord
+24017,50,Compton–Stanstead,Compton–Stanstead
+24018,51,Drummond,Drummond
+24019,53,Gaspésie–Îles-de-la-Madeleine,Gaspésie–Îles-de-la-Madeleine
+24020,53,Gatineau,Gatineau
+24021,55,Hochelaga,Hochelaga
+24022,56,Honoré-Mercier,Honoré-Mercier
+24023,57,Hull–Aylmer,Hull–Aylmer
+24024,58,Jeanne-Le Ber,Jeanne-Le Ber
+24025,59,Joliette,Joliette
+24026,60,Jonquière–Alma,Jonquière–Alma
+24027,61,Lac-Saint-Louis,Lac-Saint-Louis
+24028,62,La Pointe-de-l'Île,La Pointe-de-l'Île
+24029,63,LaSalle–Émard,LaSalle–Émard
+24030,64,Laurentides–Labelle,Laurentides–Labelle
+24031,65,Laurier–Sainte-Marie,Laurier–Sainte-Marie
+24032,66,Laval,Laval
+24033,67,Laval–Les Îles,Laval–Les Îles
+24034,68,Lévis–Bellechasse,Lévis–Bellechasse
+24035,69,Longueuil–Pierre-Boucher,Longueuil–Pierre-Boucher
+24036,70,Lotbinière–Chutes-de-la-Chaudière,Lotbinière–Chutes-de-la-Chaudière
+24037,71,Louis-Hébert,Louis-Hébert
+24038,72,Louis-Saint-Laurent,Louis-Saint-Laurent
+24039,73,Manicouagan,Manicouagan
+24040,74,Marc-Aurèle-Fortin,Marc-Aurèle-Fortin
+24041,54,Haute-Gaspésie–La Mitis–Matane–Matapédia,Haute-Gaspésie–La Mitis–Matane–Matapédia
+24042,75,Mégantic–L'Érable,Mégantic–L'Érable
+24043,76,Montcalm,Montcalm
+24044,79,Mount Royal,Mont-Royal
+24045,80,Notre-Dame-de-Grâce–Lachine,Notre-Dame-de-Grâce–Lachine
+24046,33,Abitibi–Baie-James–Nunavik–Eeyou,Abitibi–Baie-James–Nunavik–Eeyou
+24047,81,Outremont,Outremont
+24048,82,Papineau,Papineau
+24049,83,Pierrefonds–Dollard,Pierrefonds–Dollard
+24050,84,Pontiac,Pontiac
+24051,85,Portneuf–Jacques-Cartier,Portneuf–Jacques-Cartier
+24052,86,Québec,Québec
+24053,87,Repentigny,Repentigny
+24054,38,Bas-Richelieu–Nicolet–Bécancour,Bas-Richelieu–Nicolet–Bécancour
+24055,88,Richmond–Arthabaska,Richmond–Arthabaska
+24056,89,Rimouski-Neigette–Témiscouata–Les Basques,Rimouski-Neigette–Témiscouata–Les Basques
+24057,90,Rivière-des-Mille-Îles,Rivière-des-Mille-Îles
+24058,77,Montmagny–L'Islet–Kamouraska–Rivière-du-Loup,Montmagny–L'Islet–Kamouraska–Rivière-du-Loup
+24059,91,Rivière-du-Nord,Rivière-du-Nord
+24060,92,Roberval–Lac-Saint-Jean,Roberval–Lac-Saint-Jean
+24061,93,Rosemont–La Petite-Patrie,Rosemont–La Petite-Patrie
+24062,94,Saint-Bruno–Saint-Hubert,Saint-Bruno–Saint-Hubert
+24063,95,Saint-Hyacinthe–Bagot,Saint-Hyacinthe–Bagot
+24064,96,Saint-Jean,Saint-Jean
+24065,97,Saint-Lambert,Saint-Lambert
+24066,98,Saint-Laurent–Cartierville,Saint-Laurent–Cartierville
+24067,99,Saint-Léonard–Saint-Michel,Saint-Léonard–Saint-Michel
+24068,100,Saint-Maurice–Champlain,Saint-Maurice–Champlain
+24069,101,Shefford,Shefford
+24070,102,Sherbrooke,Sherbrooke
+24071,103,Terrebonne–Blainville,Terrebonne–Blainville
+24072,104,Trois-Rivières,Trois-Rivières
+24073,105,Vaudreuil–Soulanges,Vaudreuil–Soulanges
+24074,106,Verchères–Les Patriotes,Verchères–Les Patriotes
+24075,107,Westmount–Ville-Marie,Westmount–Ville-Marie
+35001,108,Ajax–Pickering,Ajax–Pickering
+35002,109,Algoma–Manitoulin–Kapuskasing,Algoma–Manitoulin–Kapuskasing
+35003,110,Ancaster–Dundas–Flamborough–Westdale,Ancaster–Dundas–Flamborough–Westdale
+35004,111,Barrie,Barrie
+35005,112,Beaches–East York,Beaches–East York
+35006,113,Bramalea–Gore–Malton,Bramalea–Gore–Malton
+35007,114,Brampton–Springdale,Brampton–Springdale
+35008,115,Brampton West,Brampton-Ouest
+35009,116,Brant,Brant
+35010,118,Burlington,Burlington
+35011,119,Cambridge,Cambridge
+35012,120,Carleton–Mississippi Mills,Carleton–Mississippi Mills
+35013,121,Chatham-Kent–Essex,Chatham-Kent–Essex
+35014,126,Durham,Durham
+35015,122,Davenport,Davenport
+35016,123,Don Valley East,Don Valley-Est
+35017,124,Don Valley West,Don Valley-Ouest
+35018,125,Dufferin–Caledon,Dufferin–Caledon
+35019,127,Eglinton–Lawrence,Eglinton–Lawrence
+35020,128,Elgin–Middlesex–London,Elgin–Middlesex–London
+35021,129,Essex,Essex
+35022,130,Etobicoke Centre,Etobicoke-Centre
+35023,131,Etobicoke–Lakeshore,Etobicoke–Lakeshore
+35024,132,Etobicoke North,Etobicoke-Nord
+35025,133,Glengarry–Prescott–Russell,Glengarry–Prescott–Russell
+35026,117,Bruce–Grey–Owen Sound,Bruce–Grey–Owen Sound
+35027,134,Guelph,Guelph
+35028,135,Haldimand–Norfolk,Haldimand–Norfolk
+35029,136,Haliburton–Kawartha Lakes–Brock,Haliburton–Kawartha Lakes–Brock
+35030,137,Halton,Halton
+35031,138,Hamilton Centre,Hamilton-Centre
+35032,139,Hamilton East–Stoney Creek,Hamilton-Est–Stoney Creek
+35033,140,Hamilton Mountain,Hamilton Mountain
+35034,141,Huron–Bruce,Huron–Bruce
+35035,142,Kenora,Kenora
+35036,143,Kingston and the Islands,Kingston et les Îles
+35037,144,Kitchener Centre,Kitchener-Centre
+35038,145,Kitchener–Conestoga,Kitchener–Conestoga
+35039,146,Kitchener–Waterloo,Kitchener–Waterloo
+35040,148,Lanark–Frontenac–Lennox and Addington,Lanark–Frontenac–Lennox and Addington
+35041,149,Leeds–Grenville,Leeds–Grenville
+35042,150,London–Fanshawe,London–Fanshawe
+35043,151,London North Centre,London-Centre-Nord
+35044,152,London West,London-Ouest
+35045,153,Markham–Unionville,Markham–Unionville
+35046,147,Lambton–Kent–Middlesex,Lambton–Kent–Middlesex
+35047,154,Mississauga–Brampton South,Mississauga–Brampton-Sud
+35048,155,Mississauga East–Cooksville,Mississauga-Est–Cooksville
+35049,156,Mississauga–Erindale,Mississauga–Erindale
+35050,157,Mississauga South,Mississauga-Sud
+35051,158,Mississauga–Streetsville,Mississauga–Streetsville
+35052,159,Nepean–Carleton,Nepean–Carleton
+35053,160,Newmarket–Aurora,Newmarket–Aurora
+35054,161,Niagara Falls,Niagara Falls
+35055,162,Niagara West–Glanbrook,Niagara-Ouest–Glanbrook
+35056,163,Nickel Belt,Nickel Belt
+35057,164,Nipissing–Timiskaming,Nipissing–Timiskaming
+35058,165,Northumberland–Quinte West,Northumberland–Quinte West
+35059,166,Oak Ridges–Markham,Oak Ridges–Markham
+35060,167,Oakville,Oakville
+35061,168,Oshawa,Oshawa
+35062,169,Ottawa Centre,Ottawa-Centre
+35063,170,Ottawa–Orléans,Ottawa–Orléans
+35064,171,Ottawa South,Ottawa-Sud
+35065,172,Ottawa–Vanier,Ottawa–Vanier
+35066,173,Ottawa West–Nepean,Ottawa-Ouest–Nepean
+35067,174,Oxford,Oxford
+35068,175,Parkdale–High Park,Parkdale–High Park
+35069,176,Parry Sound–Muskoka,Parry Sound–Muskoka
+35070,177,Perth–Wellington,Perth–Wellington
+35071,178,Peterborough,Peterborough
+35072,179,Pickering–Scarborough East,Pickering–Scarborough-Est
+35073,180,Prince Edward–Hastings,Prince Edward–Hastings
+35074,181,Renfrew–Nipissing–Pembroke,Renfrew–Nipissing–Pembroke
+35075,182,Richmond Hill,Richmond Hill
+35076,183,St. Catharines,St. Catharines
+35077,184,St. Paul's,St. Paul's
+35078,185,Sarnia–Lambton,Sarnia–Lambton
+35079,186,Sault Ste. Marie,Sault Ste. Marie
+35080,187,Scarborough–Agincourt,Scarborough–Agincourt
+35081,188,Scarborough Centre,Scarborough-Centre
+35082,189,Scarborough–Guildwood,Scarborough–Guildwood
+35083,190,Scarborough–Rouge River,Scarborough–Rouge River
+35084,191,Scarborough Southwest,Scarborough-Sud-Ouest
+35085,192,Simcoe–Grey,Simcoe–Grey
+35086,193,Simcoe North,Simcoe-Nord
+35087,194,Stormont–Dundas–South Glengarry,Stormont–Dundas–South Glengarry
+35088,195,Sudbury,Sudbury
+35089,196,Thornhill,Thornhill
+35090,197,Thunder Bay–Rainy River,Thunder Bay–Rainy River
+35091,198,Thunder Bay–Superior North,Thunder Bay–Superior-Nord
+35092,199,Timmins–James Bay,Timmins–Baie James
+35093,200,Toronto Centre,Toronto-Centre
+35094,201,Toronto–Danforth,Toronto–Danforth
+35095,202,Trinity–Spadina,Trinity–Spadina
+35096,203,Vaughan,Vaughan
+35097,204,Welland,Welland
+35098,205,Wellington–Halton Hills,Wellington–Halton Hills
+35099,206,Whitby–Oshawa,Whitby–Oshawa
+35100,207,Willowdale,Willowdale
+35101,208,Windsor–Tecumseh,Windsor–Tecumseh
+35102,209,Windsor West,Windsor-Ouest
+35103,210,York Centre,York-Centre
+35104,211,York–Simcoe,York–Simcoe
+35105,212,York South–Weston,York-Sud–Weston
+35106,213,York West,York-Ouest
+46001,214,Brandon–Souris,Brandon–Souris
+46002,215,Charleswood–St. James–Assiniboia,Charleswood–St. James–Assiniboia
+46003,216,Churchill,Churchill
+46004,217,Dauphin–Swan River–Marquette,Dauphin–Swan River–Marquette
+46005,218,Elmwood–Transcona,Elmwood–Transcona
+46006,219,Kildonan–St. Paul,Kildonan–St. Paul
+46007,220,Portage–Lisgar,Portage–Lisgar
+46008,221,Provencher,Provencher
+46009,222,Saint Boniface,Saint-Boniface
+46010,223,Selkirk–Interlake,Selkirk–Interlake
+46011,224,Winnipeg Centre,Winnipeg-Centre
+46012,225,Winnipeg North,Winnipeg-Nord
+46013,226,Winnipeg South,Winnipeg-Sud
+46014,227,Winnipeg South Centre,Winnipeg-Centre-Sud
+47001,228,Battlefords–Lloydminster,Battlefords–Lloydminster
+47002,229,Blackstrap,Blackstrap
+47003,231,Desnethé–Missinippi–Churchill River,Desnethé–Missinippi–Rivière Churchill
+47004,230,Cypress Hills–Grasslands,Cypress Hills–Grasslands
+47005,232,Palliser,Palliser
+47006,233,Prince Albert,Prince Albert
+47007,234,Regina–Lumsden–Lake Centre,Regina–Lumsden–Lake Centre
+47008,235,Regina–Qu'Appelle,Regina–Qu'Appelle
+47009,236,Saskatoon–Humboldt,Saskatoon–Humboldt
+47010,237,Saskatoon–Rosetown–Biggar,Saskatoon–Rosetown–Biggar
+47011,238,Saskatoon–Wanuskewin,Saskatoon–Wanuskewin
+47012,239,Souris–Moose Mountain,Souris–Moose Mountain
+47013,240,Wascana,Wascana
+47014,241,Yorkton–Melville,Yorkton–Melville
+48001,259,Fort McMurray–Athabasca,Fort McMurray–Athabasca
+48002,244,Calgary East,Calgary-Est
+48003,243,Calgary Centre-North,Calgary-Centre-Nord
+48004,245,Calgary Northeast,Calgary-Nord-Est
+48005,246,Calgary–Nose Hill,Calgary–Nose Hill
+48006,242,Calgary Centre,Calgary-Centre
+48007,247,Calgary Southeast,Calgary-Sud-Est
+48008,248,Calgary Southwest,Calgary-Sud-Ouest
+48009,249,Calgary West,Calgary-Ouest
+48010,250,Crowfoot,Crowfoot
+48011,254,Edmonton–Mill Woods–Beaumont,Edmonton–Mill Woods–Beaumont
+48012,251,Edmonton Centre,Edmonton-Centre
+48013,252,Edmonton East,Edmonton-Est
+48014,253,Edmonton–Leduc,Edmonton–Leduc
+48015,255,Edmonton–St. Albert,Edmonton–St. Albert
+48016,256,Edmonton–Sherwood Park,Edmonton–Sherwood Park
+48017,257,Edmonton–Spruce Grove,Edmonton–Spruce Grove
+48018,258,Edmonton–Strathcona,Edmonton–Strathcona
+48019,260,Lethbridge,Lethbridge
+48020,261,Macleod,Macleod
+48021,262,Medicine Hat,Medicine Hat
+48022,263,Peace River,Peace River
+48023,264,Red Deer,Red Deer
+48024,265,Vegreville–Wainwright,Vegreville–Wainwright
+48025,266,Westlock–St. Paul,Westlock–St. Paul
+48026,267,Wetaskiwin,Wetaskiwin
+48027,268,Wild Rose,Wild Rose
+48028,269,Yellowhead,Yellowhead
+59001,270,Abbotsford,Abbotsford
+59002,272,Burnaby–Douglas,Burnaby–Douglas
+59003,273,Burnaby–New Westminster,Burnaby–New Westminster
+59004,274,Cariboo–Prince George,Cariboo–Prince George
+59005,275,Chilliwack–Fraser Canyon,Chilliwack–Fraser Canyon
+59006,276,Delta–Richmond East,Delta–Richmond-Est
+59007,290,Pitt Meadows–Maple Ridge–Mission,Pitt Meadows–Maple Ridge–Mission
+59008,277,Esquimalt–Juan de Fuca,Esquimalt–Juan de Fuca
+59009,278,Fleetwood–Port Kells,Fleetwood–Port Kells
+59010,279,Kamloops–Thompson–Cariboo,Kamloops–Thompson–Cariboo
+59011,280,Kelowna–Lake Country,Kelowna–Lake Country
+59012,281,Kootenay–Columbia,Kootenay–Columbia
+59013,282,Langley,Langley
+59014,283,Nanaimo–Alberni,Nanaimo–Alberni
+59015,284,Nanaimo–Cowichan,Nanaimo–Cowichan
+59016,285,Newton–North Delta,Newton–Delta-Nord
+59017,286,New Westminster–Coquitlam,New Westminster–Coquitlam
+59018,289,Okanagan–Shuswap,Okanagan–Shuswap
+59019,287,North Vancouver,North Vancouver
+59020,288,Okanagan–Coquihalla,Okanagan–Coquihalla
+59021,291,Port Moody–Westwood–Port Coquitlam,Port Moody–Westwood–Port Coquitlam
+59022,292,Prince George–Peace River,Prince George–Peace River
+59023,293,Richmond,Richmond
+59024,294,Saanich–Gulf Islands,Saanich–Gulf Islands
+59025,295,Skeena–Bulkley Valley,Skeena–Bulkley Valley
+59026,271,British Columbia Southern Interior,Colombie-Britannique-Southern Interior
+59027,296,South Surrey–White Rock–Cloverdale,Surrey-Sud–White Rock–Cloverdale
+59028,297,Surrey North,Surrey-Nord
+59029,298,Vancouver Centre,Vancouver-Centre
+59030,299,Vancouver East,Vancouver-Est
+59031,300,Vancouver Island North,Île de Vancouver-Nord
+59032,301,Vancouver Kingsway,Vancouver Kingsway
+59033,302,Vancouver Quadra,Vancouver Quadra
+59034,303,Vancouver South,Vancouver-Sud
+59035,304,Victoria,Victoria
+59036,305,West Vancouver–Sunshine Coast–Sea to Sky Country,West Vancouver–Sunshine Coast–Sea to Sky Country
+60001,306,Yukon,Yukon
+61001,307,Western Arctic,Western Arctic
+62001,308,Nunavut,Nunavut
