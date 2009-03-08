@@ -94,8 +94,15 @@ class CbcScraper
     
     def extract_riding_id_and_name(code, &block)
       scraper = new(code)
+      return unless scraper.cached?
+      all = nil
+      begin
+        all = scraper.extract_all
+      rescue
+        return
+      end
       
-      scraper.extract_all.each do |hash|
+      all.each do |hash|
         yield(hash["rid"], hash["name"])
       end
     end
